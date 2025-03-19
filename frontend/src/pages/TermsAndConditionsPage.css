@@ -1,0 +1,57 @@
+.terms-and-conditions-page {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+    background-color: #f9f9f9;
+    min-height: 100vh;
+}
+
+.terms-and-conditions-page h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.terms-content {
+    text-align: left;
+    max-width: 600px;
+    margin: 0 auto;
+    font-size: 16px;
+    color: #555;
+    line-height: 1.6;
+}
+
+.terms-content ul {
+    margin: 20px 0;
+    padding-left: 20px;
+}
+
+.terms-content ul li {
+    margin-bottom: 10px;
+}
+
+.terms-content a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.terms-content a:hover {
+    text-decoration: underline;
+}
+
+.accept-button {
+    margin-top: 20px;
+    padding: 12px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: #000;
+    border: none;
+    border-radius: 40px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.accept-button:hover {
+    background-color: #333;
+    transform: translateY(-2px);
+}
